@@ -1,0 +1,14 @@
+j = 5
+print("the value of is",j)
+ 
+j += 5 
+print("the value of is",j)
+
+j += 20
+j -= 4
+j *= 4
+j += 15
+j = j + 69
+ 
+print("the value of is",j)
+
