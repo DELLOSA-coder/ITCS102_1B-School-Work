@@ -4,7 +4,6 @@ print("Answer a few question:")
 genre = str(input("What genre that you type (action,horror,romance) --> "))
 length = str(input("How long this should manga be?(short,medium,long) -->"))
 decade = eval(input("Which decade(2000,2024) -->"))
-#
 
 """
 FOR ACTION
@@ -15,45 +14,49 @@ FOR ACTION
 if genre == "action":
     if length == "short":
         if decade == 2000:
-            print("WE RECOMMEND: All You Need Is Kill ")
-        # else:
-        #     print("Not available for to now")
+            print("WE RECOMMEND: All You Need Is Kill ")      
+        else:
+            print("We dont have a recommendations in a year you input")  
 
-if genre == "action":
-    if length == "medium":
+    elif length == "medium":
         if decade == 2000:
-            print("WE RECOMMEND: Sailer Moon ")
-        # else:
-        #     print("Not available for to now")
-
-if genre == "action":
-    if length == "long":
+            print("WE RECOMMEND: Sailer Moon ")  
+        else:
+            print("We dont have a recommendations in a year you input")  
+        
+    elif length == "long":
         if decade == 2000:
             print("WE RECOMMEND: Naruto")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")
+    else:
+        print("Sorry the volume you input in available")
 
 #set2 for action
-if genre == "action":
     if length == "short":
         if decade == 2024:
             print("WE RECOMMEND: MAD")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")
+       
 
-if genre == "action":
-    if length == "medium":
+
+    elif length == "medium":
         if decade == 2024:
             print("WE RECOMMEND: Shinobi UnderCover")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")
+        
 
-if genre == "action":
-    if length == "long":
+    elif length == "long":
         if decade == 2024:
             print("WE RECOMMEND: ONE PIECE")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")
+    else:
+        print("Sorry the volume you input in available")
+
+        
 
 
 """
@@ -61,98 +64,100 @@ FOR ROMANCE
 
 """
 
-
-#set1 for ROMANCE
 if genre == "romance":
     if length == "short":
         if decade == 2000:
             print("WE RECOMMEND: She The Ultimate Weapon")
-        # else:
-        #     print("Not available for to now")
-
-if genre == "romance":
-    if length == "medium":
+        else:
+            print("We dont have a recommendations in a year you input")  
+       
+    elif length == "medium":
         if decade == 2000:
             print("WE RECOMMEND: Fruit Basket")
-        # else:
-        #     print("Not available for to now")
-
-if genre == "romance":
-    if length == "long":
+        else:
+            print("We dont have a recommendations in a year you input")  
+        
+    elif length == "long":
         if decade == 2000:
             print("WE RECOMMEND: Honey and Clover")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")  
+    else:
+        print("Sorry the volume you input in available")
 
-#set2 for adventure
-if genre == "romance":
+
     if length == "short":
         if decade == 2024:
             print("WE RECOMMEND: Yakuza Fiance ")
-        # else:
-        #     print("Not available for to now")
-
-if genre == "romance":
-    if length == "medium":
+        else:
+            print("We dont have a recommendations in a year you input")  
+        
+    elif length == "medium":
         if decade == 2024:
             print("WE RECOMMEND: Learning to Love My Cat-like Classmate")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")  
+       
 
-if genre == "romance":
-    if length == "long":
+    elif length == "long":
         if decade == 2024:
             print("WE RECOMMEND: A Condition Called Love")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")  
+    else:
+        print("Sorry the volume you input in available")
 
+        
 """
 FOR HORROR
 
 """
 
-#set1 for HORROR
 if genre == "horror":
     if length == "short":
         if decade == 2000:
             print("WE RECOMMEND: Another ")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")  
+        
 
-if genre == "horror":
-    if length == "medium":
+    elif length == "medium":
         if decade == 2000:
             print("WE RECOMMEND: The Drifting Classroom: Perfect Edition")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")  
+        
 
-if genre == "horror":
-    if length == "long":
+    elif length == "long":
         if decade == 2000:
             print("WE RECOMMEND: Higurashi no Naku Koro ni")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")    
 
-# set2 for HORROR
-if genre == "horror":
-    if length == "short":
+    elif length == "short":
         if decade == 2024:
             print("WE RECOMMEND: Jujutsu Kaisen Modulo")
-        # else:
-        #     print("Not available for to now")
+        else:
+            print("We dont have a recommendations in a year you input")  
+        
 
-if genre == "horror":
-    if length == "medium":
+    elif length == "medium":
         if decade == 2024:
-            print("WE RECOMMEND: The Summer Hikaru Died")
+            print("WE RECOMMEND: The Summer Hikaru Died")   
+        else:
+            print("We dont have a recommendations in a year you input")     
 
-        # else:
-        #      print("Not available for to now")
 
-if genre == "horror":
-    if length == "long":
+    elif length == "long":
         if decade == 2024:
             print("WE RECOMMEND: Immortality and Punishment")
+        else:
+            print("We dont have a recommendations in a year you input")  
+    else:
+        print("Sorry the volume you input in available")
+else:
+    print("The genre you input is not available")
+
     
 
 
