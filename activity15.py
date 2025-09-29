@@ -1,8 +1,8 @@
-fname = 'Andrei Leand'
-mname = 'Adecer'
-lname = 'Menemedez'
-house = "Python"
-sy = 2024 - 2025
+fname = 'Jose Philip'
+mname = 'A.'
+lname = 'Dellosa'
+house = "Pearl"
 fullname = f"{fname} {mname} {lname}" 
 
-print(f"My name is {fullname}, and from the house of {house} sy:{sy}")
+
+print(f"My name is {fullname}, and from the house of {house}")
